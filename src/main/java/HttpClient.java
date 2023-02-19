@@ -13,9 +13,9 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class HttpClient {
-    public static final ObjectMapper mapper = new ObjectMapper();
+    public static ObjectMapper mapper = new ObjectMapper();
 
-    public static void Data() throws IOException {
+    public static void dataRequest() throws IOException {
 
 
 
